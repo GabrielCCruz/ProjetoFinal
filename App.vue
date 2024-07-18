@@ -1,8 +1,6 @@
-<!-- src/App.vue -->
 <template>
   <div id="app">
     <nav>
-      <!-- Links de navegação para as páginas de login e registro -->
       <router-link to="/login">Entrar</router-link>
       <router-link to="/register">Registrar</router-link>
     </nav>
@@ -23,7 +21,7 @@ nav {
 }
 nav a {
   margin-right: 1em;
-  color: #4267B2; /* Cor dos links inspirado no Facebook */
+  color: #4267B2;
   text-decoration: none;
   font-weight: bold;
 }
